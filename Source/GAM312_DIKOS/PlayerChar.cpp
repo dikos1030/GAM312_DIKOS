@@ -39,6 +39,9 @@ void APlayerChar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	//Updating Player Health, Hunger, Stamina
+	playerUI->UpdateBars(Health, Hunger, Stamina);
+
 	//Allows the player to place and build where the camera is pointing
 	if (isBuilding)
 	{
