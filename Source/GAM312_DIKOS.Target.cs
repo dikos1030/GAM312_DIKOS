@@ -1,15 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
-using UnrealBuildTool;
-using System.Collections.Generic;
-
-public class GAM312_DIKOSTarget : TargetRules
-{
-	public GAM312_DIKOSTarget(TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
-		ExtraModuleNames.Add("GAM312_DIKOS");
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fde040a93bde8da62985fa6bf20802a72d429b87949b19287c1ead6b840f725
+size 404

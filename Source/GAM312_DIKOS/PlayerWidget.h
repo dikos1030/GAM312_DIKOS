@@ -1,22 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
-#include "PlayerWidget.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class GAM312_DIKOS_API UPlayerWidget : public UUserWidget
-{
-	GENERATED_BODY()
-
-public:
-	UFUNCTION(BlueprintImplementableEvent)
-		void UpdateBars(float Health1, float Hunger1, float Stamina1);
-
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:78cc149b193d8aeb1d286a36dc302e7e21396ad1a43be260a66131522bcabe7d
+size 409

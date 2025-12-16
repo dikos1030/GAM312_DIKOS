@@ -1,25 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
-#include "ObjectiveWidget.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class GAM312_DIKOS_API UObjectiveWidget : public UUserWidget
-{
-	GENERATED_BODY()
-	
-public:
-
-	UFUNCTION(BlueprintImplementableEvent)
-		void UpdatematOBJ(float matsCollected);
-
-	UFUNCTION(BlueprintImplementableEvent)
-		void UpdatebuildObj(float objectsBuilt);
-
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ea73b0787dfaf2cc3614c7abd83df9e27d87af11d7bf7c59c7f9fb056e94399
+size 476
